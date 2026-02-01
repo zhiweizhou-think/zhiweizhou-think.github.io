@@ -1,6 +1,6 @@
 ---
 title: "Yujun Lian"
-image: images/lianyujun_2025.png
+image: images/zhiweizhou2024.jpg
 about:
   id: hero-heading
   template: trestles
