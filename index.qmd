@@ -11,32 +11,35 @@ about:
       text: 1258806185@qq.com
       href: mailto:1258806185@qq.com
     - icon: github
-      text: arlionn
+      text: github
       href: https://github.com/zhiweizhou-think
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
-    - icon: fingerprint
-      text: ORCID
-      href: https://orcid.org/0000-0002-2011-7535
-    - icon: brands zhihu
-      text: 知乎
-      href: https://www.zhihu.com/people/arlionn/
-    - icon: brands weibo
-      text: 微博
-      href: https://weibo.com/arlionn
-    - icon: brands xing
-      text: 小红书
-      href: https://www.xiaohongshu.com/user/profile/682968d9000000000a03da1a
-    - icon: solid user
-      text: 工作主页
-      href: https://lingnan.sysu.edu.cn/faculty/LianYujun
-    - icon: brands home
-      text: 连享会
-      href: https://www.lianxh.cn
-    - icon: 📝
-      text: CV
-      href: CV.pdf  
+    # - icon: brands bilibili
+    # - text: bilibili
+    #   href: https://space.bilibili.com/334242002
+    # - icon: book
+    #   text: Google Scholar
+    #   href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
+    # - icon: fingerprint
+    #   text: ORCID
+    #   href: https://orcid.org/0000-0002-2011-7535
+    - icon: brands csdn
+      text: csdn
+      href: https://blog.csdn.net/xingghaoyuxitong?type=blog
+    # - icon: brands weibo
+    #   text: 微博
+    #   href: https://weibo.com/arlionn
+    # - icon: brands xing
+    #   text: 小红书
+    #   href: https://www.xiaohongshu.com/user/profile/682968d9000000000a03da1a
+    # - icon: solid user
+    #   text: 工作主页
+    #   href: https://lingnan.sysu.edu.cn/faculty/LianYujun
+    # - icon: brands home
+    #   text: 连享会
+    #   href: https://www.lianxh.cn
+    # - icon: 📝
+    #   text: CV
+    #   href: CV.pdf  
 ---
 
 ::: {#hero-heading}
