@@ -4,10 +4,10 @@ project:
   
 website:
   page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
+  title: "Zhiwei Zhou"
+  site-url: https://zhiweizhou-think.github.io
   favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
+  repo-url: https://github.com/zhiweizhou-think/zhiweizhou-think.github.io
   repo-actions: [edit, issue]
   
   page-footer:

@@ -1,5 +1,5 @@
 ---
-title: "Yujun Lian"
+title: "Zhiwei Zhou"
 image: images/zhiweizhou2024.jpg
 about:
   id: hero-heading
@@ -8,11 +8,11 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: arlionn@163.com
-      href: mailto:arlionn@163.com
+      text: 1258806185@qq.com
+      href: mailto:1258806185@qq.com
     - icon: github
       text: arlionn
-      href: https://github.com/lianyujun
+      href: https://github.com/zhiweizhou-think
     - icon: book
       text: Google Scholar
       href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
