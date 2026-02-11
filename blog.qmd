@@ -10,5 +10,5 @@ editor:
 
 ## 2026
 
-  - zhiwiezhou, 2026.02, [cmake基本使用](https://blog.csdn.net/xingghaoyuxitong/article/details/157946816?sharetype=blogdetail&sharerId=157946816&sharerefer=PC&sharesource=xingghaoyuxitong&spm=1011.2480.3001.8118)
-  - zhiwiezhou, 2026.02, [QT6+cmake+cuda的构建](https://blog.csdn.net/xingghaoyuxitong/article/details/157980573?sharetype=blogdetail&sharerId=157980573&sharerefer=PC&sharesource=xingghaoyuxitong&spm=1011.2480.3001.8118)
+  - zhiweizhou, 2026.02, [cmake基本使用](https://blog.csdn.net/xingghaoyuxitong/article/details/157946816?sharetype=blogdetail&sharerId=157946816&sharerefer=PC&sharesource=xingghaoyuxitong&spm=1011.2480.3001.8118)
+  - zhiweizhou, 2026.02, [QT6+cmake+cuda的构建](https://blog.csdn.net/xingghaoyuxitong/article/details/157980573?sharetype=blogdetail&sharerId=157980573&sharerefer=PC&sharesource=xingghaoyuxitong&spm=1011.2480.3001.8118)
