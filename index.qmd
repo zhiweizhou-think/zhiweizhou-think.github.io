@@ -13,53 +13,25 @@ about:
     - icon: github
       text: github
       href: https://github.com/zhiweizhou-think
-    # - icon: brands bilibili
-    # - text: bilibili
-    #   href: https://space.bilibili.com/334242002
-    # - icon: book
-    #   text: Google Scholar
-    #   href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
-    # - icon: fingerprint
-    #   text: ORCID
-    #   href: https://orcid.org/0000-0002-2011-7535
     - icon: brands csdn
       text: csdn
       href: https://blog.csdn.net/xingghaoyuxitong?type=blog
-    # - icon: brands weibo
-    #   text: 微博
-    #   href: https://weibo.com/arlionn
-    # - icon: brands xing
-    #   text: 小红书
-    #   href: https://www.xiaohongshu.com/user/profile/682968d9000000000a03da1a
-    # - icon: solid user
-    #   text: 工作主页
-    #   href: https://lingnan.sysu.edu.cn/faculty/LianYujun
-    # - icon: brands home
-    #   text: 连享会
-    #   href: https://www.lianxh.cn
-    # - icon: 📝
-    #   text: CV
-    #   href: CV.pdf  
 ---
 
 ::: {#hero-heading}
 
-Professor Lian's research interests lie in the field of causal inference methods and stochastic frontier analysis, with specific applications in investment, trade credit, and supply chain dynamics. He has been actively researching topics such as supply chain finance, leverage adjustment, trade credit, and innovation. He teaches courses in Financial Econometrics and Applied Econometrics. 
+我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。
 
-His teaching abilities have been highly regarded, as evidenced by his consecutive perfect teaching evaluations in the MBA corporate finance course over a span of three years. He was was awarded the title of *My Favorite Teacher* in 2022 by Lignan College. 
+## 教育与工作经历
 
-With his expertise in applied econometrics, he has made significant contributions to the [Stata](https://www.stata.com/) community by developing several popular packages, including `winsor2`, `xtbalance`, `bdiff`, and `sftt`, which have been widely used by researchers in various fields. He is one of the initiators of the Chinese Stata Users Group Meeting, which is one of the imporat meeting of Stata Corporation. He has been invited several times as a guest speaker to deliver keynote speeches ([2018th](https://www.stata.com/meeting/china18/), [2020th](https://www.stata.com/meeting/china20-Uone-Tech/), [2021th](https://www.stata.com/meeting/china21-Uone-Tech/), [2022th](https://www.stata.com/meeting/china22-Uone-Tech/), [2023th](https://www.stata.com/meeting/china23-Uone-Tech/)).
+- 2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师
+- 2017.09 - 2023.06:华中科技大学,硕博连读,光学工程
+- 2013.09 - 2017.06:湖北大学,电子信息工程,本科
 
-He is also the founder of the website <https://www.lianxh.cn>, one of the largest academic websites in mainland China specializing in management and economics. Currently, it has published over 1300 articles introducing econometric and statistical methods. The WeChat official account lianxh_cn, established based on this website, has accumulated over 280,000 subscribers, with a total reading volume exceeding 20 million and a daily average reading volume exceeding 10,000.
+## 技能
 
-
-## Background
-
-- Jan 2024 - Aug 2024: Visiting Professor, DeGroote School of Business, McMaster Univeristy. 
-- Aug 2015 - Jan 2016: Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology
-- 2011 - Present: Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics
-- 2007-2010: Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University
-- 2001-2007: Ph.D. in Economics, Xi'an Jiaotong University, China, specializing in Econometrics
-- 1997-2001: Bachelor of Engineering, Xi'an Jiaotong University, China, majoring in Materials Science.
+- C++/Qt 跨平台桌面应用开发
+- CUDA/GPU 并行计算与加速
+- CMake 工程化构建与配置
 
 :::

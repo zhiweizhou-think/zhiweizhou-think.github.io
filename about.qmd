@@ -1,5 +1,25 @@
 ---
-title: "About"
+title: "关于我"
 ---
 
-xxx的个人主页
+## 简介
+
+我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。
+
+## 教育与工作经历
+
+- 2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师
+- 2017.09 - 2023.06:华中科技大学,硕博连读,光学工程
+- 2013.09 - 2017.06:湖北大学,电子信息工程,本科
+
+## 技能
+
+- C++/Qt 跨平台桌面应用开发
+- CUDA/GPU 并行计算与加速
+- CMake 工程化构建与配置
+
+## 联系方式
+
+- 邮箱:1258806185@qq.com
+- GitHub:[zhiweizhou-think](https://github.com/zhiweizhou-think)
+- CSDN:[xingghaoyuxitong](https://blog.csdn.net/xingghaoyuxitong?type=blog)

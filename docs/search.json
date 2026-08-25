@@ -9,16 +9,16 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "关于我",
     "section": "",
-    "text": "xxx的个人主页"
+    "text": "我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zhiwei Zhou",
     "section": "",
-    "text": "1258806185@qq.com\n  \n  \n    \n     github\n  \n  \n    \n     csdn\n  \n\n  \n  \nProfessor Lian’s research interests lie in the field of causal inference methods and stochastic frontier analysis, with specific applications in investment, trade credit, and supply chain dynamics. He has been actively researching topics such as supply chain finance, leverage adjustment, trade credit, and innovation. He teaches courses in Financial Econometrics and Applied Econometrics.\nHis teaching abilities have been highly regarded, as evidenced by his consecutive perfect teaching evaluations in the MBA corporate finance course over a span of three years. He was was awarded the title of My Favorite Teacher in 2022 by Lignan College.\nWith his expertise in applied econometrics, he has made significant contributions to the Stata community by developing several popular packages, including winsor2, xtbalance, bdiff, and sftt, which have been widely used by researchers in various fields. He is one of the initiators of the Chinese Stata Users Group Meeting, which is one of the imporat meeting of Stata Corporation. He has been invited several times as a guest speaker to deliver keynote speeches (2018th, 2020th, 2021th, 2022th, 2023th).\nHe is also the founder of the website https://www.lianxh.cn, one of the largest academic websites in mainland China specializing in management and economics. Currently, it has published over 1300 articles introducing econometric and statistical methods. The WeChat official account lianxh_cn, established based on this website, has accumulated over 280,000 subscribers, with a total reading volume exceeding 20 million and a daily average reading volume exceeding 10,000.\n\n\n\nJan 2024 - Aug 2024: Visiting Professor, DeGroote School of Business, McMaster Univeristy.\nAug 2015 - Jan 2016: Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology\n2011 - Present: Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics\n2007-2010: Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University\n2001-2007: Ph.D. in Economics, Xi’an Jiaotong University, China, specializing in Econometrics\n1997-2001: Bachelor of Engineering, Xi’an Jiaotong University, China, majoring in Materials Science."
+    "text": "1258806185@qq.com\n  \n  \n    \n     github\n  \n  \n    \n     csdn\n  \n\n  \n  \n我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。\n\n\n\n2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师\n2017.09 - 2023.06:华中科技大学,硕博连读,光学工程\n2013.09 - 2017.06:湖北大学,电子信息工程,本科\n\n\n\n\n\nC++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
   },
   {
     "objectID": "index.html#background",
@@ -32,13 +32,55 @@
     "href": "readme.html",
     "title": "Zhiwei Zhou",
     "section": "",
-    "text": "参考资料： - [lianxhcn] (https://lianxhcn.github.io/) - Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n具体制作过程参见：\n\n连小白, 2025, 50 分钟搞定个人主页：Fork 模板 + GitHub Pages + Quarto 完整教程.\n\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。\n\n\n\n主页 | 课程 | 视频 | 推文 | 资料"
+    "text": "参考资料： - Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。"
   },
   {
     "objectID": "readme.html#如何生成个人主页",
     "href": "readme.html#如何生成个人主页",
     "title": "Zhiwei Zhou",
     "section": "",
-    "text": "参考资料： - [lianxhcn] (https://lianxhcn.github.io/) - Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n具体制作过程参见：\n\n连小白, 2025, 50 分钟搞定个人主页：Fork 模板 + GitHub Pages + Quarto 完整教程.\n\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。\n\n\n\n主页 | 课程 | 视频 | 推文 | 资料"
+    "text": "参考资料： - Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。"
+  },
+  {
+    "objectID": "about.html#简介",
+    "href": "about.html#简介",
+    "title": "关于我",
+    "section": "",
+    "text": "我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。"
+  },
+  {
+    "objectID": "about.html#教育与工作经历",
+    "href": "about.html#教育与工作经历",
+    "title": "关于我",
+    "section": "教育与工作经历",
+    "text": "教育与工作经历\n\n2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师\n2017.09 - 2023.06:华中科技大学,硕博连读,光学工程\n2013.09 - 2017.06:湖北大学,电子信息工程,本科"
+  },
+  {
+    "objectID": "about.html#联系方式",
+    "href": "about.html#联系方式",
+    "title": "关于我",
+    "section": "联系方式",
+    "text": "联系方式\n\n邮箱:1258806185@qq.com\nGitHub:zhiweizhou-think\nCSDN:xingghaoyuxitong"
+  },
+  {
+    "objectID": "index.html#教育与工作经历",
+    "href": "index.html#教育与工作经历",
+    "title": "Zhiwei Zhou",
+    "section": "",
+    "text": "2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师\n2017.09 - 2023.06:华中科技大学,硕博连读,光学工程\n2013.09 - 2017.06:湖北大学,电子信息工程,本科"
+  },
+  {
+    "objectID": "index.html#技能",
+    "href": "index.html#技能",
+    "title": "Zhiwei Zhou",
+    "section": "",
+    "text": "C++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
+  },
+  {
+    "objectID": "about.html#技能",
+    "href": "about.html#技能",
+    "title": "关于我",
+    "section": "技能",
+    "text": "技能\n\nC++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
   }
 ]

@@ -12,7 +12,7 @@ website:
   
   page-footer:
     left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
+      © Zhiwei Zhou<br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
@@ -22,18 +22,8 @@ website:
     right: 
       - text: "Home"
         href: index.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Books"
-        href: books.qmd
       - text: "Blogs"
         href: blog.qmd
-      - text: "Codes"
-        href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
-      - text: "CV"
-        href: CV.pdf
 
 format:
   html:
