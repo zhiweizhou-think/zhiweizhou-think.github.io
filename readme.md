@@ -314,8 +314,20 @@ styles.scss ──编译──▶ CSS（外观：颜色/字体/间距）──�
 1. Markdown — 写内容的语言
 2. YAML — 写配置的语言（[YAML 入门教程 | 菜鸟教程](https://www.runoob.com/w3cnote/yaml-intro.html)）
 3. CSS/SCSS 基础 — 改样式的语言（选择器、盒模型、颜色）（[CSS 语法 | 菜鸟教程](https://www.runoob.com/css/css-syntax.html)）
-4. Quarto 配置 —`_quarto.yml` + about 模板 + listing
-5. Git + GitHub Pages — 发布上线
+4. Quarto 配置 —`_quarto.yml` + about 模板 TODO
+* 
+
+
+ ing
+5.* 更新c/c++笔记* 更新光学成像笔记
+* 更新ISP图像处理笔记* 更新深度学习图像处理笔记
+
+
+ Git + it
+
+
+
+ub Pages — 发布上线
 
 进阶知识点（想玩花样时学）
 
@@ -326,13 +338,14 @@ styles.scss ──编译──▶ CSS（外观：颜色/字体/间距）──�
 - SEO —`description` 、`sitemap` 、`robots`
 
 一句话总结 你项目的知识栈 = Markdown（内容）+ YAML（配置）+ CSS/SCSS（样式）+ Quarto（构建）+ Git/GitHub Pages（部署） 。前三个是"写"，后两个是"发"。核
-## 
- doT
-. 更新基于stm32的稳定光源1
 
-o
-待
-心就这 5 块，其他都是锦上添花。
+## TODO
+
+1. 更新基于stm32的稳定光源
+2. 更新c/c++笔记
+3. 更新isp笔记
+4. 更新深度学习笔记
+
 
 ## 经典demo
 
