@@ -1,14 +1,14 @@
 ---
 title: "Blogs"
-editor: 
-  markdown: 
-    wrap: 72
+listing:
+  contents: posts          # 列出 posts/ 目录下的所有文章
+  type: default            # 列表式布局（配合 image-align 实现左图右文）
+  sort: "date desc"        # 按日期倒序
+  image-align: left        # 图片放左边，文字放右边
+  image-height: "150px"    # 缩略图高度
+  categories: false
+  feed: true
+page-layout: full
 ---
 
-
-&emsp;
-
-## 2026
-
-  - zhiweizhou, 2026.02, [cmake基本使用](https://blog.csdn.net/xingghaoyuxitong/article/details/157946816?sharetype=blogdetail&sharerId=157946816&sharerefer=PC&sharesource=xingghaoyuxitong&spm=1011.2480.3001.8118)
-  - zhiweizhou, 2026.02, [QT6+cmake+cuda的构建](https://blog.csdn.net/xingghaoyuxitong/article/details/157980573?sharetype=blogdetail&sharerId=157980573&sharerefer=PC&sharesource=xingghaoyuxitong&spm=1011.2480.3001.8118)
+这里记录我的技术博客，完整文章同步发布于我的 [CSDN 博客](https://blog.csdn.net/xingghaoyuxitong)。

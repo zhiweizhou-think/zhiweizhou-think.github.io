@@ -1,33 +1,39 @@
 project:
-  type: website
-  output-dir: docs
+  type: website               # 项目类型为网站
+  output-dir: docs           # 输出目录为docs
+  render:                     # 渲染文件类型
+    - "*.qmd"
+    - "*.md"
+    - "!ReadMe.md"
   
 website:
-  page-navigation: true
-  title: "Zhiwei Zhou"
+  page-navigation: true       # 启用页面导航
+  title: "zhiwei.zhou"         # 网站标题（导航栏左上角）
   site-url: https://zhiweizhou-think.github.io
   favicon: images/site-logo.png
   repo-url: https://github.com/zhiweizhou-think/zhiweizhou-think.github.io
   repo-actions: [edit, issue]
   
-  page-footer:
+  page-footer:                 # 页面底部
+    # background: "#A9CCE3"
+    # padding: 10px 0
     left: |
-      © Zhiwei Zhou<br>
+      © zhiwei.zhou<br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
-  navbar: 
-    background: "#A9CCE3"
-    search: true
+  navbar:                     # 导航栏
+    background: "#A9CCE3"       # 导航栏背景颜色
+    search: true                # 启用搜索框
     right: 
-      - text: "Home"
-        href: index.qmd
-      - text: "Blogs"
-        href: blog.qmd
+      - text: "Home"             # 导航栏右侧的Home链接
+        href: index.qmd           # 链接的目标文件
+      - text: "Blogs"            # 导航栏右侧的Blogs链接
+        href: blog.qmd           # 链接的目标文件 
 
-format:
+format:                     # 格式
   html:
-    theme: styles.scss
+    theme: styles.scss       # HTML主题
     toc: true            # 启用目录
     toc-position: right  # 将目录放置在页面的右侧
     toc-depth: 3         # 设置目录的深度，数字越大，目录越详细

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zhiweizhou-think.github.io/index.html</loc>
-    <lastmod>2026-08-25T15:11:47.764Z</lastmod>
+    <loc>https://zhiweizhou-think.github.io/posts/cmake-basic/index.html</loc>
+    <lastmod>2026-10-06T06:13:01.393Z</lastmod>
   </url>
   <url>
     <loc>https://zhiweizhou-think.github.io/blog.html</loc>
-    <lastmod>2026-02-11T15:01:24.658Z</lastmod>
+    <lastmod>2026-10-06T06:10:07.201Z</lastmod>
   </url>
   <url>
     <loc>https://zhiweizhou-think.github.io/about.html</loc>
     <lastmod>2026-08-25T15:12:10.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zhiweizhou-think.github.io/index.html</loc>
+    <lastmod>2026-10-06T13:24:09.786Z</lastmod>
   </url>
 </urlset>

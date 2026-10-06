@@ -1,10 +1,45 @@
 [
   {
-    "objectID": "blog.html#section",
-    "href": "blog.html#section",
+    "objectID": "posts/cmake-basic/index.html",
+    "href": "posts/cmake-basic/index.html",
+    "title": "cmake基本使用",
+    "section": "",
+    "text": "CMake 是一个跨平台的构建工具，通过 CMakeLists.txt 描述工程结构，自动生成 Makefile 或 Visual Studio 工程文件，从而实现“一次编写，处处编译”。"
+  },
+  {
+    "objectID": "posts/cmake-basic/index.html#一cmake-是什么",
+    "href": "posts/cmake-basic/index.html#一cmake-是什么",
+    "title": "cmake基本使用",
+    "section": "",
+    "text": "CMake 是一个跨平台的构建工具，通过 CMakeLists.txt 描述工程结构，自动生成 Makefile 或 Visual Studio 工程文件，从而实现“一次编写，处处编译”。"
+  },
+  {
+    "objectID": "posts/cmake-basic/index.html#二最小工程示例",
+    "href": "posts/cmake-basic/index.html#二最小工程示例",
+    "title": "cmake基本使用",
+    "section": "二、最小工程示例",
+    "text": "二、最小工程示例\n新建一个目录，目录内放置两个文件：\n# CMakeLists.txt\ncmake_minimum_required(VERSION 3.16)\nproject(hello LANGUAGES CXX)\n\nset(CMAKE_CXX_STANDARD 17)\nadd_executable(hello main.cpp)\n// main.cpp\n#include &lt;iostream&gt;\n\nint main() {\n    std::cout &lt;&lt; \"Hello, CMake!\" &lt;&lt; std::endl;\n    return 0;\n}\n然后在命令行执行：\nmkdir build && cd build\ncmake ..\ncmake --build .\n即可在 build/ 目录下得到可执行文件 hello。"
+  },
+  {
+    "objectID": "posts/cmake-basic/index.html#三常用命令速查",
+    "href": "posts/cmake-basic/index.html#三常用命令速查",
+    "title": "cmake基本使用",
+    "section": "三、常用命令速查",
+    "text": "三、常用命令速查\n\n\n\n命令\n作用\n\n\n\n\ncmake_minimum_required\n声明最低 CMake 版本\n\n\nproject\n定义工程名与使用的语言\n\n\nadd_executable\n生成可执行文件\n\n\nadd_library\n生成库文件（静态/动态）\n\n\ntarget_link_libraries\n链接依赖库\n\n\ntarget_include_directories\n指定头文件搜索路径\n\n\nfind_package\n查找第三方库（如 Qt、CUDA）"
+  },
+  {
+    "objectID": "posts/cmake-basic/index.html#四小结",
+    "href": "posts/cmake-basic/index.html#四小结",
+    "title": "cmake基本使用",
+    "section": "四、小结",
+    "text": "四、小结\n使用外部构建目录（build/）可以保持源码目录整洁；现代 CMake 推荐以 target 为中心组织依赖，而不是全局设置变量。\n完整文章发布于 CSDN：点击阅读原文"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
     "title": "Blogs",
-    "section": "2026",
-    "text": "2026\n\nzhiweizhou, 2026.02, cmake基本使用\nzhiweizhou, 2026.02, QT6+cmake+cuda的构建"
+    "section": "",
+    "text": "这里记录我的技术博客，完整文章同步发布于我的 CSDN 博客。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncmake基本使用\n\n\nCMake 常用命令、target 与依赖管理的入门实践笔记，包含最小工程结构与常用配置示例。\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -12,34 +47,6 @@
     "title": "关于我",
     "section": "",
     "text": "我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Zhiwei Zhou",
-    "section": "",
-    "text": "1258806185@qq.com\n  \n  \n    \n     github\n  \n  \n    \n     csdn\n  \n\n  \n  \n我是一名物理算法工程师,现就职于武汉联影智融医疗科技有限公司(联影医疗)。主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现。\n\n\n\n2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师\n2017.09 - 2023.06:华中科技大学,硕博连读,光学工程\n2013.09 - 2017.06:湖北大学,电子信息工程,本科\n\n\n\n\n\nC++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "Zhiwei Zhou",
-    "section": "",
-    "text": "Jan 2024 - Aug 2024: Visiting Professor, DeGroote School of Business, McMaster Univeristy.\nAug 2015 - Jan 2016: Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology\n2011 - Present: Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics\n2007-2010: Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University\n2001-2007: Ph.D. in Economics, Xi’an Jiaotong University, China, specializing in Econometrics\n1997-2001: Bachelor of Engineering, Xi’an Jiaotong University, China, majoring in Materials Science."
-  },
-  {
-    "objectID": "readme.html",
-    "href": "readme.html",
-    "title": "Zhiwei Zhou",
-    "section": "",
-    "text": "参考资料： - Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。"
-  },
-  {
-    "objectID": "readme.html#如何生成个人主页",
-    "href": "readme.html#如何生成个人主页",
-    "title": "Zhiwei Zhou",
-    "section": "",
-    "text": "参考资料： - Chi Zhang (github) 的个人主页修改而来的。\n你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。\n本仓库的使用方法：\n\n你可以点击本页右上方的 ⭐Star 按钮来收藏本仓库，方便日后查阅；\n也可以点击 Use this template 按钮来快速 Fork 本仓库。\n你制作个人主页期间有任何问题，可以在 Discussions 提问和讨论。"
   },
   {
     "objectID": "about.html#简介",
@@ -56,6 +63,13 @@
     "text": "教育与工作经历\n\n2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师\n2017.09 - 2023.06:华中科技大学,硕博连读,光学工程\n2013.09 - 2017.06:湖北大学,电子信息工程,本科"
   },
   {
+    "objectID": "about.html#技能",
+    "href": "about.html#技能",
+    "title": "关于我",
+    "section": "技能",
+    "text": "技能\n\nC++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
+  },
+  {
     "objectID": "about.html#联系方式",
     "href": "about.html#联系方式",
     "title": "关于我",
@@ -63,24 +77,38 @@
     "text": "联系方式\n\n邮箱:1258806185@qq.com\nGitHub:zhiweizhou-think\nCSDN:xingghaoyuxitong"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zhiwei Zhou",
+    "section": "",
+    "text": "周志伟\n\n📍 湖北 · 武汉\n🎓 华中科技大学 博士\n🔬 光学工程 / 医学影像\n\n\n\n我是一名物理算法工程师，现就职于武汉某医疗科技有限公司，主要负责内窥镜图像去噪与增强、导航相机标定等算法的研究与实现、超分辨定位成像中的图像处理方法与加速。\n博士期间依托国家重大科研仪器研制项目，围绕超分辨定位成像开展算法研究，完成了从算法设计、GPU 并行加速到软件工程落地的完整闭环：包括基于深度学习的实时图像重建、基于残差生成器网络的图像修复，以及高通量单分子二维高斯拟合的 CUDA 并行实现，处理通量达到 700 万 emitters/s。\n工程实践中以 C++/Python 为主要技术栈，擅长将深度学习模型通过 TensorRT、Onnxruntime 等推理引擎部署到实际设备，在保证算法精度的同时满足实时性要求；对 CUDA 并行计算、多线程编程、Qt 跨平台桌面应用开发也有较丰富的实践经验。\n📄 下载简历 🐙 GitHub 📝 CSDN ✉ 邮箱"
+  },
+  {
     "objectID": "index.html#教育与工作经历",
     "href": "index.html#教育与工作经历",
     "title": "Zhiwei Zhou",
-    "section": "",
-    "text": "2023.07 - 至今:武汉联影智融医疗科技有限公司,物理算法工程师\n2017.09 - 2023.06:华中科技大学,硕博连读,光学工程\n2013.09 - 2017.06:湖北大学,电子信息工程,本科"
+    "section": "教育与工作经历",
+    "text": "教育与工作经历\n\n2023.07 - 至今：武汉某医疗科技有限公司，物理算法工程师\n2019.09 - 2023.06：华中科技大学，武汉光电国家研究中心，光学工程，博士\n2017.09 - 2019.09：华中科技大学，武汉光电国家研究中心，光学工程，硕士（硕博连读）\n2013.09 - 2017.06：湖北大学，楚才学院，电子信息工程，学士（保送读研）"
   },
   {
-    "objectID": "index.html#技能",
-    "href": "index.html#技能",
+    "objectID": "index.html#项目经历",
+    "href": "index.html#项目经历",
     "title": "Zhiwei Zhou",
-    "section": "",
-    "text": "C++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
+    "section": "项目经历",
+    "text": "项目经历\n\n基于深度学习的实时图像重建方法\n\n时间：2022.03 - 至今\n方向：视觉算法 - 模型推理\n来源：国家重大科研仪器研制项目——RNA 原位成像系统（1000 万）\n问题：现有方法图像重建速度慢\n方法：1）网络前几层去除上采样，减小显存消耗；2）使用 TensorRT 加速\n结果：保证 1~9 mol/μm² 高密度处理能力，实现 50 μm × 50 μm 视场大小的实时处理，论文撰写中\n技能：Python、C++、多线程、推理引擎（Onnxruntime、TensorRT）\n\n\n\n基于残差生成器网络的图像修复方法\n\n时间：2019.06 - 2021.12\n方向：视觉算法 - 模型设计\n来源：国家重点基础研究计划（973 计划）——新型纳米超分辨结构宽场成像（97 万）\n问题：现有 Pix2pix 方法图像重建时产生了图像伪影（错误连接、结构缺失）\n方法：使用 ResNet 生成器替代 Pix2pix 方法中基于 U-Net 的生成器\n结果：解决了 Pix2pix 图像修复的伪影问题，见研究成果 1\n技能：Python、PyTorch、基于深度学习的图像超分辨方法（CNN、GAN）\n\n\n\n基于 CUDA 的并行计算加速单分子定位成像\n\n时间：2017.06 - 2019.06\n方向：视觉算法 - 图像处理加速\n来源：国家重点科研仪器研制专项——基于荧光分子纳米分辨定位的超分辨定位成像仪器（700 万）\n问题：单分子定位成像数据处理慢\n方法：利用 GPU 的并行计算能力，高通量处理单分子二维高斯拟合任务，并基于 Java 完成软件界面开发\n结果：能够实时处理采集的图像，通量达到 700 万 emitters/s，见研究成果 3\n技能：C++、CUDA、Java Swing、JNI 通信、BFGS 优化算法"
   },
   {
-    "objectID": "about.html#技能",
-    "href": "about.html#技能",
-    "title": "关于我",
-    "section": "技能",
-    "text": "技能\n\nC++/Qt 跨平台桌面应用开发\nCUDA/GPU 并行计算与加速\nCMake 工程化构建与配置"
+    "objectID": "index.html#研究成果",
+    "href": "index.html#研究成果",
+    "title": "Zhiwei Zhou",
+    "section": "研究成果",
+    "text": "研究成果\n\nZhiwei Zhou, Weibing Kuang, Zhengxia Wang*, Zhenli Huang*. ResNet-based image inpainting method for enhancing the imaging speed of single molecule localization microscopy. Optics Express, 2022.\nMingtao Shang, Zhiwei Zhou, Weibing Kuang, Yujie Wang*, Bo Xin, and Zhenli Huang. High-precision 3D drift correction with differential phase contrast images. Optics Express, 2021.\nLuchang Li, Bo Xin, Weibing Kuang, Zhiwei Zhou, and Zhenli Huang*. Divide and Conquer: Real-time maximum likelihood fitting of multiple emitters for superresolution localization microscopy. Optics Express, 2019."
+  },
+  {
+    "objectID": "index.html#专业技能",
+    "href": "index.html#专业技能",
+    "title": "Zhiwei Zhou",
+    "section": "专业技能",
+    "text": "专业技能\n\n编程语言：C/C++（熟悉）、Python（熟悉）、MATLAB（熟悉）、Java（了解）\n证书：全国计算机等级考试嵌入式三级、H3C 初级网络工程师、CET-6\n其他：图像处理仿真与硬件平台（FPGA）实现、导航相机标定仿真与硬件平台（Linux-Zynq）实现、OpenCV、CUDA 并行计算与加速"
   }
 ]
